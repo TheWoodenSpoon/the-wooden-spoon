@@ -9,10 +9,10 @@ var alertColor = {'blue': 'alert-info',
 // run multiple funcs when the page loads
 window.onload = function (event) {
   schedule(showAnnouncement,
-           '06-13-2021',
-           '06-17-2021',
-           '<strong>Everyone needs a break!! <br/><br/> We are taking the staff camping. They have been nothing less than amazing throughout the pandemic. We will be closed from Monday Jun 14-16th, our stores will reopen on June 17. Thank you for understanding. <br/><br/> Wayne & Tina <\strong>',
-           'green');
+           '11-1-2021',
+           '11-1-2021',
+           'Our location on College Blvd is closed today on November 2nd. We apologize for the inconvenience.',
+           'red');
   hideSpecials();
 }
 

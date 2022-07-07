@@ -9,10 +9,10 @@ var alertColor = {'blue': 'alert-info',
 // run multiple funcs when the page loads
 window.onload = function (event) {
   schedule(showAnnouncement,
-           '11-1-2021',
-           '11-1-2021',
-           'Our location on College Blvd is closed today on November 2nd. We apologize for the inconvenience.',
-           'red');
+           '12-20-2021',
+           '1-5-2022',
+           'Happy Holidays! Our store will be closed from December 20th to January 4th.',
+           'blue');
   hideSpecials();
 }
 

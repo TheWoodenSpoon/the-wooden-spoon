@@ -10,8 +10,8 @@ var alertColor = {'blue': 'alert-info',
 window.onload = function (event) {
   schedule(showAnnouncement,
            '10-29-2022',
-           '11-20-2022',
-           'Exciting news! First, we are now open on Mondays! We would love if you came in and supported us then. Second, we now bake our own bread (rye, brioche, sourdough, and wheat), so please feel free to purchase a loaf!',
+           '1-1-2023',
+           'Exciting news! First, we are now open on Mondays! We would love if you came in and supported us then. Second, in addition to our homemade biscuits, we now bake our own bread (rye, brioche, sourdough, and wheat), so please feel free to purchase a loaf!',
            'red');
   hideSpecials();
 }

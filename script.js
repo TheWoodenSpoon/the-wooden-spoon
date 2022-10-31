@@ -9,10 +9,10 @@ var alertColor = {'blue': 'alert-info',
 // run multiple funcs when the page loads
 window.onload = function (event) {
   schedule(showAnnouncement,
-           '12-20-2021',
-           '1-5-2022',
-           'Happy Holidays! Our store will be closed from December 20th to January 4th.',
-           'blue');
+           '10-29-2022',
+           '11-20-2022',
+           'Exciting news! First, we are now open on Mondays! We would love if you came in and supported us then. Second, we now bake our own bread (rye, brioche, sourdough, and wheat), so please feel free to purchase a loaf!',
+           'red');
   hideSpecials();
 }
 

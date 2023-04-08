@@ -12,6 +12,16 @@ window.onload = function (event) {
            '4-8-2023',
            '4-10-2023',
            'We will be open on Easter, Sunday April 9th. Please join us for Easter brunch!',
+           'green');
+  schedule(showAnnouncement,
+           '5-11-2023',
+           '5-15-2023',
+           'We will be open on Mother\'s Day, Sunday May 14th. Come join us!',
+           'blue');
+  schedule(showAnnouncement,
+           '12-17-2023',
+           '01-02-2024',
+           'We will be closed from Christmas to New Years, 12/24 - 01/01. Happy Holidays!',
            'blue');
   hideSpecials();
 }

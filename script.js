@@ -9,10 +9,10 @@ var alertColor = {'blue': 'alert-info',
 // run multiple funcs when the page loads
 window.onload = function (event) {
   schedule(showAnnouncement,
-           '10-29-2022',
-           '1-1-2023',
-           'Exciting news! First, we are now open on Mondays! We would love if you came in and supported us then. Second, in addition to our homemade biscuits, we now bake our own bread (rye, brioche, sourdough, and wheat), so please feel free to purchase a loaf!',
-           'red');
+           '4-8-2023',
+           '4-10-2023',
+           'We will be open on Easter, Sunday April 9th. Please join us for Easter brunch!',
+           'blue');
   hideSpecials();
 }
 

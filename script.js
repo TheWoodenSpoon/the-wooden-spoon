@@ -21,7 +21,7 @@ window.onload = function (event) {
   schedule(showAnnouncement,
            '12-17-2023',
            '01-02-2024',
-           'We will be closed from Christmas to New Years, 12/24 - 01/01. Happy Holidays!',
+           'We will be closed Christmas Day 12/25 and New Years Day 01/01. Happy Holidays!',
            'blue');
   hideSpecials();
 }

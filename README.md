@@ -23,3 +23,9 @@ If you're changing the CSS, try to keep the changes in ```style.css``` and not i
 
 ### Issues
 If you have any ideas to improve the site but can't get to them, open an issue about it with a descriptive and concise title and explanation.
+
+### FAQ
+#### How do I change slide transition speed?
+In _custom.js_ > `.mu-chef-nav`, 
+  - `speed` = time in ms of the slide transition
+  - `autoplaySpeed` = duration in ms for how long the slide stays

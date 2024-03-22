@@ -86,7 +86,7 @@ function changeMenuPDF(menuTabNameStr)
   }
   else if (menuTabNameStr == 'lunch')
   {
-    menu_link.href = "assets\\pdf\\menu.pdf";
+    menu_link.href = "assets\\pdf\\lunch-menu.pdf";
     menu_link.textContent = "View Lunch Menu PDF";
   }
   else if (menuTabNameStr == 'catering')

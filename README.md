@@ -29,3 +29,5 @@ If you have any ideas to improve the site but can't get to them, open an issue a
 In _custom.js_ > `.mu-chef-nav`, 
   - `speed` = time in ms of the slide transition
   - `autoplaySpeed` = duration in ms for how long the slide stays
+#### Why does the slideshow bounce backwards?
+For some reason there needs to be an even amount of elements in the slideshow. Ensure that you don't have an odd number.

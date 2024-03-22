@@ -274,9 +274,9 @@
               <ul class="nav nav-tabs mu-restaurant-menu">
                 <!-- Active means the page starts viewing it first -->
                 <li class="active" id="specials-tab"><a href="#specials" data-toggle="tab">Specials</a></li>
-                <li id="breakfast-tab"><a href="#breakfast" data-toggle="tab">Breakfast</a></li>
-                <li id="lunch-tab"><a href="#lunch" data-toggle="tab">Lunch</a></li>
-                <li id="catering-tab"><a href="#catering" data-toggle="tab">Catering</a></li>
+                <li id="breakfast-tab"><a href="#breakfast" data-toggle="tab" onclick="return changeMenuPDF('breakfast');">Breakfast</a></li>
+                <li id="lunch-tab"><a href="#lunch" data-toggle="tab" onclick="return changeMenuPDF('lunch');">Lunch</a></li>
+                <li id="catering-tab"><a href="#catering" data-toggle="tab" onclick="return changeMenuPDF('catering');">Catering</a></li>
                 <!-- <li id="a-la-cart-tab"><a href="#a-la-carte" data-toggle="tab">A La Carte</a></li>
                 <li id="sides-tab"><a href="#sides" data-toggle="tab">Sides</a></li>
                 <li id="drinks-tab"><a href="#drinks" data-toggle="tab">Drinks</a></li> -->
@@ -696,8 +696,8 @@
           </div>
         </div>
       </div>
-      <a href="assets\pdf\menu.pdf" style="text-align: center;display:block; padding: 10px 0px 30px; font-size: 20px" target="_blank">
-        View Menu PDF
+      <a id="menu_pdf" href="assets\pdf\menu.pdf" style="text-align: center;display:block; padding: 10px 0px 30px; font-size: 20px" target="_blank">
+        View Breakfast Menu PDF
       </a>
     </div>
   </section>

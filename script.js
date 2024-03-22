@@ -75,3 +75,30 @@ function hideSpecials() {
   // displays the breakfast menu
   breakfast.className = 'tab-pane fade in active';
 }
+
+function changeMenuPDF(menuTabNameStr)
+{
+  let menu_link = document.getElementById('menu_pdf');
+  if (menuTabNameStr == 'breakfast')
+  {
+    menu_link.href = "assets\\pdf\\menu.pdf";
+    menu_link.textContent = "View Breakfast Menu PDF";
+  }
+  else if (menuTabNameStr == 'lunch')
+  {
+    menu_link.href = "assets\\pdf\\menu.pdf";
+    menu_link.textContent = "View Lunch Menu PDF";
+  }
+  else if (menuTabNameStr == 'catering')
+  {
+    menu_link.href = "assets\\pdf\\catering-menu.pdf";
+    menu_link.textContent = "View Catering Menu PDF";
+  }
+  else
+  {
+    console.log('Given menuTabNameStr is not supported');
+  }
+
+  // return false to prevent the page from scrolling
+  return false;
+}

@@ -94,6 +94,11 @@ function changeMenuPDF(menuTabNameStr)
     menu_link.href = "assets\\pdf\\catering-menu.pdf";
     menu_link.textContent = "View Catering Menu PDF";
   }
+  else if (menuTabNameStr == 'bread')
+  {
+    menu_link.href = "assets\\pdf\\bread-menu.pdf";
+    menu_link.textContent = "View Artisan Breads PDF";
+  }
   else
   {
     console.log('Given menuTabNameStr is not supported');

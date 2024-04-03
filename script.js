@@ -23,6 +23,14 @@ window.onload = function (event) {
            '01-02-2024',
            'We will be closed Christmas Day 12/25 and New Years Day 01/01. Happy Holidays!',
            'blue');
+           
+   schedule(showAnnouncement,
+            '04-02-2024',
+            '06-30-2024',
+            'Check out our Artisan Breads in the Menu section below!',
+            'blue');
+
+
   hideSpecials();
 }
 

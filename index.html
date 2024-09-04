@@ -17,6 +17,63 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+    <style>
+        /* General resets */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Banner styles */
+        .banner {
+            background-color: rgba(173, 216, 230, 0.7); /* Pastel blue with transparency */
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            font-family: 'Playfair Display', serif; /* Elegant font for banner */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: block; /* Initially displayed */
+        }
+
+        .banner h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            border: none;
+            color: #333;
+            font-size: 2rem; /* Larger font size for the button */
+            width: 40px; /* Larger width */
+            height: 40px; /* Larger height */
+            border-radius: 50%; /* Circular button */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Main content */
+        .content {
+            padding: 20px;
+            font-family: 'Poppins', sans-serif; /* Clean, modern font for content */
+        }
+    </style>
 
   </head>
   <body>
@@ -65,14 +122,27 @@
 
     <!-- Announcement  -->
     <!-- Check bootstrap alert classes to change alert color/type -->
-    <div class="alert alert-danger" role="alert" id="announcement">
+    <!-- <div class="alert alert-danger" role="alert" id="announcement">
     <div id="announcement-message">
     </div>
-
+	
     <button type="button" class="close" aria-label="Close" onclick="hide('announcement')">
       <span aria-hidden="true">&times;</span>
     </button>
+    </div> -->
+	
+	<div class="banner" id="banner">
+        <button class="close-btn" onclick="closeBanner()">×</button>
+        <h1><a href="https://marketwagon.com/collections?vendor=13873&trk=pj97122j" style="color: black" target="_blank">
+		  <div style="text-align: center; font-size: 1.1em"><u>Click here to order our Artisan Breads!</u></div>
+	  </a></h1>
     </div>
+
+    <script>
+        function closeBanner() {
+            document.getElementById('banner').style.display = 'none';
+        }
+    </script>
     <!-- end of alert banner -->
 
   </header>
@@ -779,6 +849,17 @@
                   <div class="mu-tab-content-area">
                       <ul class="mu-menu-item-nav">
 
+						  <li>
+                            <div class="media" style="margin: 10px 0;">
+                              <div class="media-body">
+                                <h4 class="media-heading" style="border:3px; border-style:solid; border-color:#9c1c34; padding:1em">
+                                  <a href="https://marketwagon.com/collections?vendor=13873&trk=pj97122j" style="color: black" target="_blank">
+                                    <div style="text-align: center; font-size: 1.1em"> <b><i>NEW ~~ Artisan Breads ~~ NEW</i></b> </div>
+                                  </a>
+                                </h4>
+                              </div>
+                            </div>
+                          </li>
 
                         <li>
                           <div class="media" style="margin: 10px 0;">

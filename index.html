@@ -133,7 +133,8 @@
 	
 	<div class="banner" id="banner">
         <button class="close-btn" onclick="closeBanner()">×</button>
-        <h1><a href="https://marketwagon.com/collections?vendor=13873&trk=pj97122j" style="color: black" target="_blank">
+        <h1><!-- Updated Link that triggers the floating bread order div -->
+          <a href="#" id="openBreadOrder" style="color: black">
 		  <div style="text-align: center; font-size: 1.1em"><u>Click here to order our Artisan Breads!</u></div>
 	  </a></h1>
     </div>
@@ -849,18 +850,21 @@
                   <div class="mu-tab-content-area">
                       <ul class="mu-menu-item-nav">
 
-						  <li>
+						              <li>
                             <div class="media" style="margin: 10px 0;">
                               <div class="media-body">
                                 <h4 class="media-heading" style="border:3px; border-style:solid; border-color:#9c1c34; padding:1em">
-                                  <a href="https://marketwagon.com/collections?vendor=13873&trk=pj97122j" style="color: black" target="_blank">
-									<div style="text-align: center; font-size: 1.1em; background-color: yellow;"> <b><i>~~ Artisan Breads ~~</i></b> </div>
+                                  <!-- Updated Link that triggers the floating bread order div -->
+                                    <a href="#" id="openBreadOrderBanner" style="color: black">
+								                  	<div style="text-align: center; font-size: 1.1em; background-color: yellow;"> <b><i>~~ Artisan Breads ~~</i></b> </div>
                                   </a>
                                 </h4>
                               </div>
                             </div>
                           </li>
-
+                          <li>
+                           
+                          </li>
                         <li>
                           <!-- <div class="media" style="margin: 10px 0;">
                             <div class="media-body">
@@ -871,35 +875,35 @@
                               </h4>
                             </div>
                           </div> -->
-						  <div class="media" style="margin: 10px 0;">
-							<div style="border: 3px solid #9c1c34; padding: 1em">
-							  
-							  <!-- Title -->
-							  <div style="text-align: center; font-size: 1.3em; margin-bottom: .5em; font-weight: bold; color: black">
-							    Indian Creek and Roe
-							  </div>
+                          <div class="media" style="margin: 10px 0;">
+                          <div style="border: 3px solid #9c1c34; padding: 1em">
+                            
+                            <!-- Title -->
+                            <div style="text-align: center; font-size: 1.3em; margin-bottom: .5em; font-weight: bold; color: black">
+                              Indian Creek and Roe
+                            </div>
 
-							  <div style="display: flex; justify-content: space-between">
-							    
-							    <!-- Left Box -->
-							    <div style="flex: 1; border-right: 3px solid #9c1c34; padding-right: 1em">
-							      <h4 class="media-heading">
-							        <a href="https://foxhill.orderwoodenspoonkc.com/order#/" style="color: black" target="_blank">
-							          <div style="text-align: center; font-size: 1.1em"><u>Delivery</u></div>
-							        </a>
-							      </h4>
-							    </div>
+                            <div style="display: flex; justify-content: space-between">
+                              
+                              <!-- Left Box -->
+                              <div style="flex: 1; border-right: 3px solid #9c1c34; padding-right: 1em">
+                                <h4 class="media-heading">
+                                  <a href="https://foxhill.orderwoodenspoonkc.com/order#/" style="color: black" target="_blank">
+                                    <div style="text-align: center; font-size: 1.1em"><u>Delivery</u></div>
+                                  </a>
+                                </h4>
+                              </div>
 
-							    <!-- Right Box -->
-							    <div style="flex: 1; padding-left: 1em">
-							      <h4 class="media-heading">
-							        <a href="https://online.skytab.com/s/woodenspoonkc" style="color: black" target="_blank">
-							          <div style="text-align: center; font-size: 1.1em"><u>Pick-Up</u></div>
-							        </a>
-							      </h4>
-							    </div>
-							  </div>
-							</div>
+                                <!-- Right Box -->
+                                <div style="flex: 1; padding-left: 1em">
+                                  <h4 class="media-heading">
+                                    <a href="https://online.skytab.com/s/woodenspoonkc" style="color: black" target="_blank">
+                                      <div style="text-align: center; font-size: 1.1em"><u>Pick-Up</u></div>
+                                    </a>
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </li>
 
@@ -912,50 +916,100 @@
                                 </a>
                               </h4>
                             </div> -->
-							<div style="border: 3px solid #9c1c34; padding: 1em">
-							  
-							  <!-- Title -->
-							  <div style="text-align: center; font-size: 1.3em; margin-bottom: 0.5em; font-weight: bold; color: black">
-							    College and Quivira
-							  </div>
+                              <div style="border: 3px solid #9c1c34; padding: 1em">
+                                
+                                <!-- Title -->
+                                <div style="text-align: center; font-size: 1.3em; margin-bottom: 0.5em; font-weight: bold; color: black">
+                                  College and Quivira
+                                </div>
 
-							  <div style="display: flex; justify-content: space-between">
-							    
-							    <!-- Left Box -->
-							    <div style="flex: 1; border-right: 3px solid #9c1c34; padding-right: 1em">
-							      <h4 class="media-heading">
-							        <a href="https://collegeblvd.orderwoodenspoonkc.com/" style="color: black" target="_blank">
-							          <div style="text-align: center; font-size: 1.1em"><u>Delivery</u></div>
-							        </a>
-							      </h4>
-							    </div>
+                                <div style="display: flex; justify-content: space-between">
+                                  
+                                  <!-- Left Box -->
+                                  <div style="flex: 1; border-right: 3px solid #9c1c34; padding-right: 1em">
+                                    <h4 class="media-heading">
+                                      <a href="https://collegeblvd.orderwoodenspoonkc.com/" style="color: black" target="_blank">
+                                        <div style="text-align: center; font-size: 1.1em"><u>Delivery</u></div>
+                                      </a>
+                                    </h4>
+                                  </div>
 
-							    <!-- Right Box -->
-							    <div style="flex: 1; padding-left: 1em">
-							      <h4 class="media-heading">
-							        <a href="https://online.skytab.com/s/woodenspoon" style="color: black" target="_blank">
-							          <div style="text-align: center; font-size: 1.1em"><u>Pick-Up</u></div>
-							        </a>
-							      </h4>
-							    </div>
-							    
-							  </div>
-							  
-							</div>
+                                  <!-- Right Box -->
+                                  <div style="flex: 1; padding-left: 1em">
+                                    <h4 class="media-heading">
+                                      <a href="https://online.skytab.com/s/woodenspoon" style="color: black" target="_blank">
+                                        <div style="text-align: center; font-size: 1.1em"><u>Pick-Up</u></div>
+                                      </a>
+                                    </h4>
+                                  </div>
+                                  
+                                </div>
+                                
+                              </div>
 
 							
                           </div>
                       </li>
                       </ul>
+                      
+
                      </div>
                    </div>
+                   
                  </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Floating Div -->
+      <div id="backdrop"></div>
+      
+    </div>
+    <div id="floatingDiv">
+      <span id="closeButton">X</span>
+      <div id="breadContent"></div>
     </div>
   </section>
+  <script>
+    // Function to open the floating div
+    document.getElementById("openBreadOrder").addEventListener("click", function(event) {
+      event.preventDefault();
+      
+      // Show the floating div and backdrop
+      document.getElementById("floatingDiv").style.display = "block";
+      document.getElementById("backdrop").style.display = "block";
+    
+      // Fetch breadorder.html content and load it into the floating div
+      fetch("breadorder.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("breadContent").innerHTML = data;
+        });
+    });
+    document.getElementById("openBreadOrderBanner").addEventListener("click", function(event) {
+      event.preventDefault();
+      
+      // Show the floating div and backdrop
+      document.getElementById("floatingDiv").style.display = "block";
+      document.getElementById("backdrop").style.display = "block";
+    
+      // Fetch breadorder.html content and load it into the floating div
+      fetch("breadorder.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("breadContent").innerHTML = data;
+        });
+    });
+  
+    // Close the floating div when the close button or backdrop is clicked
+    document.getElementById("closeButton").addEventListener("click", closeFloatingDiv);
+    document.getElementById("backdrop").addEventListener("click", closeFloatingDiv);
+  
+    function closeFloatingDiv() {
+      document.getElementById("floatingDiv").style.display = "none";
+      document.getElementById("backdrop").style.display = "none";
+    }
+  </script>
   <!-- Testing -->
 
   <!-- Start Order Online section -->
@@ -1062,6 +1116,7 @@
 </div>
 </div>
 </section>
+
 <!-- End Client Testimonial section --><!-- Start Contact section -->
 
 <section id="mu-contact" style="padding: 50px 0px">

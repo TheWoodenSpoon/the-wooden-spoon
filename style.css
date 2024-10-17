@@ -695,7 +695,7 @@ RESERVATION SECTION
   font-weight: bold;
 }
 #mu-reservation .mu-reservation-area .mu-reservation-content p {
-  color: #fff;
+  color: #080000;
   letter-spacing: 0.5px;
   padding: 0 50px;
   text-align: center;
@@ -791,6 +791,131 @@ RESERVATION SECTION
 /*==================
  ORDER ONLINE SECTION
 ====================*/
+
+ /* Styling for the floating Online Order div */
+  /* Backdrop overlay */
+  #backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999; /* Ensures it's above other content */
+  }
+
+  /* Floating div styling */
+  #floatingDiv {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the div */
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    height: 90%; /* Adjust size as needed */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Ensures it's above the backdrop */
+    border-radius: 8px;
+  }
+
+  /* Close button styling */
+  #closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    background-color: #9c1c34;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  /* Ensure that the content inside the floating div doesn't overflow */
+  #breadContent {
+    height: 100%;
+    overflow-y: auto;
+  }
+
+/* Styling for the bread order options */ 
+  /* Flex container to align options in a row */
+    /* Flex container to align options in a row */
+    .order-options-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin-top: 20px;
+      flex-wrap: wrap;
+  }
+
+  .order-option {
+      text-align: center;
+      width: 300px; /* Set width to keep consistency */
+      margin: 20px;
+      flex-direction: column;
+      display: flex;
+      flex-grow: 1;
+      justify-content: space-between; /* Ensures even spacing */
+      min-height: 450px; /* Ensure all options have the same height */
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+  }
+
+  .order-option img {
+      width: 200px;
+      height: auto;
+      
+      border-radius: 10px;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease;
+  }
+
+  .order-option img:hover {
+      transform: scale(1.05);
+      border-color: #888;
+  }
+
+  .order-option h4 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 10px;
+  }
+
+  .order-option p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.5;
+  }
+
+  .order-option button {
+      background-color: #9c1c34;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  .order-option button:hover {
+      background-color: #b2224a;
+  }
+
+  /* Ensures the buttons align at the same level */
+  .order-option a {
+      margin-top: auto; /* Aligns the button to the bottom */
+  }
+.order-option-description {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;}
 
 /*==================
  GALLERY SECTION
@@ -2569,6 +2694,6 @@ RESERVATION SECTION
   line-height: 28px;
 }
 .alert-info {
-  position: relative
+  position: relative;
   min-width: 550px;
 }

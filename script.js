@@ -99,7 +99,7 @@ function changeMenuPDF(menuTabNameStr)
   }
   else if (menuTabNameStr == 'catering')
   {
-    menu_link.href = "assets\\pdf\\catering-menu.pdf";
+    menu_link.href = "assets\\pdf\\catering-menu-1124.pdf";
     menu_link.textContent = "View Catering Menu PDF";
   }
   else if (menuTabNameStr == 'bread')

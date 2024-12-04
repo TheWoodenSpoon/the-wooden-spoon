@@ -107,6 +107,11 @@ function changeMenuPDF(menuTabNameStr)
     menu_link.href = "assets\\pdf\\bread-menu.pdf";
     menu_link.textContent = "View Artisan Breads PDF";
   }
+  else if (menuTabNameStr == 'vegan')
+  {
+    menu_link.href = "assets\\pdf\\vegan-menu.pdf";
+    menu_link.textContent = "View Vegan Menu PDF";
+  }
   else
   {
     console.log('Given menuTabNameStr is not supported');
